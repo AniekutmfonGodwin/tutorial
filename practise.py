@@ -194,3 +194,42 @@
 # >>> print(template.format("afternoon","anies"))       
 # good anies anies we are glad to have you
 # >>>
+
+
+
+# increment and in operation
+# >>> a +=1
+# >>> a
+# 11
+# >>> a +=1
+# >>> a
+# 12
+# >>> a -=1 
+# >>> "anies" in 'hello anies'
+# True
+# >>> "anies" not in 'hello anies' 
+# False
+# >>>
+
+
+# list method 
+# >>> li
+# ['apple', 'banana', 'cherry']
+# >>> li[0] = "new value" 
+# >>> li
+# ['new value', 'banana', 'cherry']
+# >>> li[1:] = [1,2,3,4] 
+# >>> li
+# ['new value', 1, 2, 3, 4]
+# >>> li.insert(1,"inserted item") 
+# >>> li
+# ['new value', 'inserted item', 1, 2, 3, 4]
+# >>>
+
+
+
+# assignment => what data type will you use to store this datas
+# a table of users information
+# types of cars
+# list of usernames with no duplicate
+
