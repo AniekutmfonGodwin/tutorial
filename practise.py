@@ -233,3 +233,8 @@
 # types of cars
 # list of usernames with no duplicate
 
+
+sentence = input("enter a sentence: ")
+
+print("word" in sentence)
+
