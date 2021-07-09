@@ -255,29 +255,29 @@ false values are:'',0,[],{},(),False,None
 # remove username and use email
 
 # list of users password
-database = [
-    {
-        "username":"anies",
-        "password":"123"
-    },
-    {
-        "username":"edi",
-        "password":"113"
-    },
-]
+# database = [
+#     {
+#         "username":"anies",
+#         "password":"123"
+#     },
+#     {
+#         "username":"edi",
+#         "password":"113"
+#     },
+# ]
 
 
-user_username = input("enter your username: ")
-user_password = input("enter your password: ")
+# user_username = input("enter your username: ")
+# user_password = input("enter your password: ")
 
 
 
 
 
-if {"username":user_username,"password":user_password} in database:
-    print("logged in successful")
-else:
-    print("incorrect password")
+# if {"username":user_username,"password":user_password} in database:
+#     print("logged in successful")
+# else:
+#     print("incorrect password")
 
 
 # 3 ways to create a list 
@@ -368,6 +368,103 @@ else:
 
 # sentence = input("enter your message ")
 
+# def my_sorting_func(item):
+#     return item["year"]
+
+# cars = [
+#   {'car': 'Ford', 'year': 2005},
+#   {'car': 'Mitsubishi', 'year': 2000},
+#   {'car': 'BMW', 'year': 2019},
+#   {'car': 'VW', 'year': 2011}
+# ]
+# cars.sort(key=my_sorting_func)
+# print(cars)
 
 
-    
+#############################
+##### TUPLE ################
+#  tuple is immutable
+
+# cars = ("toyota","camery")
+
+
+
+
+# cars[0] = ["camery"]
+
+
+
+
+
+
+
+
+# if "toyota" in cars[0]:
+#     print("give access")
+
+# unpacking
+# >>> (a,b,c,*rest) = (22,44,66,445)
+# >>> rest
+# [445]
+# >>> (a,b,c,*rest_of_item) = (22,44,66,445,444,555,666,777) 
+# >>> a
+# 22
+# >>> b
+# 44
+# >>> c
+# 66
+# >>> rest_of_item
+# [445, 444, 555, 666, 777]
+# >>>
+
+
+
+# >>> rest
+# [445, 444, 555, 666, 777]
+# >>> rest * 2
+# [445, 444, 555, 666, 777, 445, 444, 555, 666, 777]
+# >>> rest = tuple(rest)
+# >>> rest
+# (445, 444, 555, 666, 777)
+# >>> rest.count(444) 
+# 1
+# >>> rest +=rest
+# >>> rest
+# (445, 444, 555, 666, 777, 445, 444, 555, 666, 777)
+# >>> rest.count(444) 
+# 2
+# >>> rest.index(444) 
+# 1
+# >>>
+
+
+
+# add item to a set
+# >>> li.add(990)  
+# >>> li
+# {777, 555, 666, 444, 445, 990}
+# >>> li.add(66) 
+# >>> 
+
+
+names = set()
+
+
+for _ in range(3):
+    name = input("enter your name: ")
+    if name:
+        names.add(name)
+    else:
+        print("empty value is not allow")
+
+print('names',names)
+
+
+
+
+
+
+
+
+
+
