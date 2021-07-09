@@ -234,7 +234,140 @@
 # list of usernames with no duplicate
 
 
-sentence = input("enter a sentence: ")
+# sentence = input("enter a sentence: ")
 
-print("word" in sentence)
+# print("word" in sentence)
 
+"""
+name => anies
+age => 10
+class => primary 1
+"""
+
+
+
+
+'''
+false values are:'',0,[],{},(),False,None
+'''
+
+# age
+# remove username and use email
+
+# list of users password
+database = [
+    {
+        "username":"anies",
+        "password":"123"
+    },
+    {
+        "username":"edi",
+        "password":"113"
+    },
+]
+
+
+user_username = input("enter your username: ")
+user_password = input("enter your password: ")
+
+
+
+
+
+if {"username":user_username,"password":user_password} in database:
+    print("logged in successful")
+else:
+    print("incorrect password")
+
+
+# 3 ways to create a list 
+# >>> list((1,2,3)) 
+# [1, 2, 3]
+# >>> list("asdd")  
+# ['a', 's', 'd', 'd']
+# >>> [x for x in 'anies'] 
+# ['a', 'n', 'i', 'e', 's']
+# >>> list("anies") 
+# ['a', 'n', 'i', 'e', 's']
+# >>>
+
+
+
+# how to add an item to a list value
+
+# >>> li = [1,2,3,4] 
+# >>> li +=[55] 
+# >>> li
+# [1, 2, 3, 4, 55]
+# >>> li.append("3344") 
+# >>> li
+# [1, 2, 3, 4, 55, '3344']
+# >>> li.insert(2,1000)    
+# >>> li
+# [1, 2, 1000, 3, 4, 55, '3344']
+# >>> li.extend(["mango", "pineapple", "papaya"]) 
+# >>> li
+# [1, 2, 1000, 3, 4, 55, '3344', 'mango', 'pineapple', 'papaya']
+# >>> li.extend(("kiwi", "orange")) 
+# >>> li
+# [1, 2, 1000, 3, 4, 55, '3344', 'mango', 'pineapple', 'papaya', 'kiwi', 'orange']
+# >>> [*li,"400",9900] 
+# [1, 2, 1000, 3, 4, 55, '3344', 'mango', 'pineapple', 'papaya', 'kiwi', 'orange', '400', 9900]
+# >>>
+
+
+
+# removing an item from a list
+# >>> li = [1,2,3,4]
+# >>> li.remove(1) 
+# >>> li
+# [2, 3, 4]
+# >>> li.remove(4) 
+# >>> li
+# [2, 3]
+# >>> li.remove(4)
+# Traceback (most recent call last):       
+#   File "<stdin>", line 1, in <module>    
+# ValueError: list.remove(x): x not in list
+# >>>
+
+
+# create a list
+# add new item to the list
+# add a new list to the existing list
+# insert an item into the list
+# remove an item in a list using its value
+# remove an item in a list using its index
+# remove the last item from a list
+
+
+
+# looping through a list
+# >>> for a in li:
+# ...     if a%2 == 0:
+# ...             print("{} is an even number".format(a))
+# ... 
+# 2 is an even number
+# 4 is an even number
+# 6 is an even number
+# 8 is an even number
+# 10 is an even number
+# >>>
+
+
+
+# while (condition)):
+#     print("hello")
+
+
+# spam_words = [
+#     "fuck you",
+#     "kill"
+# ]
+
+
+# sentence = input("enter your message ")
+
+
+
+    
