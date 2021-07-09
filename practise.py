@@ -482,6 +482,8 @@ print the new list after the loop
 """
 
 
+# write an algorithm to calculate area of different geometic (square,rectangle,circle .etc)
+
 
 
 
