@@ -461,6 +461,19 @@ print('names',names)
 
 
 
+"""
+# algorithm for loop
+create a set
+create a loop to loop 10 times
+get input from user for every loop
+check if input from user is not empty
+if input is not empty add to the set
+if input is empty print a warning message
+after the loop print the set
+"""
+
+
+
 
 
 
