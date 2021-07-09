@@ -473,6 +473,14 @@ after the loop print the set
 """
 
 
+"""
+create a list with items
+create an new list
+loop through the list with item
+if the length of each item is greater than 5 add it to the new list
+print the new list after the loop
+"""
+
 
 
 
